@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            display:flex;
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+            display:flex;
+            flex-direction: column;
+    
+            padding:10px;
+            background-color:ivory;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            flex: 1;
+        }
+        h1{
+            text-align: center;
+        }
+        .header {
+            text-align:right;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            margin-top: 30px;
+        }
+        .project, .education {
+            margin-bottom: 20px;
+        }
+        .project h3, .education h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            margin-bottom: 5px;
+        }
+        aside {
+            max-width: 150px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        aside img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <aside>
+        <img src="profile.jpg" alt="Profile Picture">
+    </aside>
+    <div class="content">
+        <div class="header">
+            <h1>Akshatha Kamath</h1>
+            <p class="contact-info"> Email: akshathak@gmail.com | Phone:9876543210 | Location: udupi, India</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>I have a basic knowlwdge in HTML, CSS and JavaScript. Looking for good oppurtunities in the future.</p>
+        </div>
+
+
+        <div class="section education">
+            <h2 class="section-title">Education</h2>
+            <div>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>SMVITM,Bantakal, 2022 - 2026</p>
+            </div>
+        </div>
+        <div class="project">
+        <h3>Mini-Project: Student Management System</h3>
+        Developed a Python-based application to efficiently manage student records. The system includes features such as data entry, retrieval, and updates for academic records, providing a user-friendly interface for administrators to maintain organized and accurate data.
+    
+       <h3> Ideathon: Eco-Friendly Candle Making</h3>
+        Proposed an innovative idea during an ideathon to create eco-friendly candles using honeybee wax. This project aimed to promote sustainability, reduce waste, and support apiculture by offering farmers a way to monetize excess bee wax through eco-conscious products.
+       </div>
+        <div class="section skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Basic Javascript</li>
+                <li>Php</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
